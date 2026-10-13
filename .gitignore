@@ -1,0 +1,17 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# dataset is downloaded with scripts/download_data.sh
+data/
+
+# video is downloaded with scripts/download_video.sh; the tracked result is shared on Drive
+*.mp4
+
+# personal notes and the assignment brief
+WALKTHROUGH.md
+task-explanation-and-detailed-breakdown.md
+CV Intern Task Wellfound.pdf

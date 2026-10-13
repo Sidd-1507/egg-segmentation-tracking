@@ -1,0 +1,17 @@
+# Task 1 only (GPU, see task1_sam/task1_colab.ipynb)
+torch
+torchvision
+transformers>=4.45,<5
+tqdm
+
+# Tasks 2-4
+numpy
+scipy
+scikit-learn
+opencv-python-headless
+pillow
+matplotlib
+
+# downloads
+gdown
+yt-dlp

@@ -1,0 +1,250 @@
+{
+ "algorithm": "T24",
+ "ground_truth": "task1 SAM masks",
+ "dev": {
+  "n": 87,
+  "n_eggs_gt": 110,
+  "n_eggs_pred": 100,
+  "iou": {
+   "mean": 0.6122835661286504,
+   "median": 0.7581043901271981,
+   "std": 0.35884929049162967
+  },
+  "dice": {
+   "mean": 0.6838206357976223,
+   "median": 0.8624111223251647,
+   "std": 0.3452052742525778
+  },
+  "precision": {
+   "mean": 0.7181299065712304,
+   "median": 0.9879408713692946,
+   "std": 0.38946268612302554
+  },
+  "recall": {
+   "mean": 0.760581220971255,
+   "median": 0.9199773342567525,
+   "std": 0.33553439297842125
+  },
+  "bf1": {
+   "mean": 0.5453118788471297,
+   "median": 0.5753397712690727,
+   "std": 0.3348740457198761
+  },
+  "hd95": {
+   "mean": 131.28638502630727,
+   "median": 66.31952514648438,
+   "std": 165.90227220416142
+  },
+  "inst_f1": {
+   "mean": 0.6130268199233716,
+   "median": 1.0,
+   "std": 0.4750574697193166
+  },
+  "abs_count_err": {
+   "mean": 0.16091954022988506,
+   "median": 0.0,
+   "std": 0.4516524759629539
+  },
+  "frac_iou_ge_0.5": 0.632183908045977,
+  "frac_iou_ge_0.7": 0.5287356321839081,
+  "failures": {
+   "eggs merged": 5,
+   "extra false region": 1,
+   "good": 42,
+   "leaked into background": 14,
+   "missed": 11,
+   "moderate error": 3,
+   "partial (shadow/occlusion)": 11
+  }
+ },
+ "eval": {
+  "n": 23,
+  "n_eggs_gt": 28,
+  "n_eggs_pred": 25,
+  "iou": {
+   "mean": 0.3785676870637295,
+   "median": 0.4166372929150511,
+   "std": 0.307337360647463
+  },
+  "dice": {
+   "mean": 0.4778061301909345,
+   "median": 0.5882060213983578,
+   "std": 0.32747649127043654
+  },
+  "precision": {
+   "mean": 0.5425399461217882,
+   "median": 0.559973924380704,
+   "std": 0.41977764681444624
+  },
+  "recall": {
+   "mean": 0.6047771843826171,
+   "median": 0.741692114244656,
+   "std": 0.39109824099014784
+  },
+  "bf1": {
+   "mean": 0.41670565881349214,
+   "median": 0.46551996212718955,
+   "std": 0.2618795626454342
+  },
+  "hd95": {
+   "mean": 249.98413267073545,
+   "median": 217.423597717285,
+   "std": 230.2905729918392
+  },
+  "inst_f1": {
+   "mean": 0.3536231884057971,
+   "median": 0.0,
+   "std": 0.4163029288203765
+  },
+  "abs_count_err": {
+   "mean": 0.391304347826087,
+   "median": 0.0,
+   "std": 0.4880422678400793
+  },
+  "frac_iou_ge_0.5": 0.2608695652173913,
+  "frac_iou_ge_0.7": 0.17391304347826086,
+  "failures": {
+   "eggs merged": 2,
+   "extra false region": 2,
+   "good": 4,
+   "leaked into background": 5,
+   "missed": 5,
+   "moderate error": 1,
+   "partial (shadow/occlusion)": 4
+  }
+ },
+ "by_scene": {
+  "ash": {
+   "dev": {
+    "n": 6,
+    "iou_mean": 0.5749055358226669
+   }
+  },
+  "blue_bucket": {
+   "eval": {
+    "n": 2,
+    "iou_mean": 0.1847295535628256
+   }
+  },
+  "checked_cloth": {
+   "dev": {
+    "n": 4,
+    "iou_mean": 0.2560283076871078
+   }
+  },
+  "earphones_carpet": {
+   "eval": {
+    "n": 3,
+    "iou_mean": 0.5609794452643142
+   }
+  },
+  "foil_packets": {
+   "dev": {
+    "n": 4,
+    "iou_mean": 0.09771284615357603
+   }
+  },
+  "food_container": {
+   "dev": {
+    "n": 7,
+    "iou_mean": 0.5780629542409372
+   }
+  },
+  "fridge_tray": {
+   "dev": {
+    "n": 3,
+    "iou_mean": 0.0065499324960111285
+   }
+  },
+  "grey_floor": {
+   "dev": {
+    "n": 4,
+    "iou_mean": 0.7418849706553635
+   }
+  },
+  "hand_backlit": {
+   "eval": {
+    "n": 3,
+    "iou_mean": 9.710541426014118e-05
+   }
+  },
+  "hand_dark_wall": {
+   "dev": {
+    "n": 3,
+    "iou_mean": 0.8576916913400354
+   }
+  },
+  "hand_light_wall": {
+   "dev": {
+    "n": 8,
+    "iou_mean": 0.6570490197866405
+   }
+  },
+  "keyboard": {
+   "dev": {
+    "n": 4,
+    "iou_mean": 0.9897681822918101
+   }
+  },
+  "leaves": {
+   "dev": {
+    "n": 5,
+    "iou_mean": 0.9216235597957299
+   }
+  },
+  "marble_counter": {
+   "dev": {
+    "n": 15,
+    "iou_mean": 0.822162228442719
+   }
+  },
+  "paisley_cloth": {
+   "dev": {
+    "n": 4,
+    "iou_mean": 0.9211395337112646
+   }
+  },
+  "pink_bowl": {
+   "dev": {
+    "n": 6,
+    "iou_mean": 0.6399081103878298
+   }
+  },
+  "plastic_bag": {
+   "dev": {
+    "n": 8,
+    "iou_mean": 0.2552621506522833
+   }
+  },
+  "red_stool": {
+   "eval": {
+    "n": 1,
+    "iou_mean": 0.0
+   }
+  },
+  "rice": {
+   "dev": {
+    "n": 3,
+    "iou_mean": 0.15762856496200542
+   }
+  },
+  "steel_pot": {
+   "eval": {
+    "n": 12,
+    "iou_mean": 0.5419389557278071
+   }
+  },
+  "white_box": {
+   "eval": {
+    "n": 2,
+    "iou_mean": 0.07555028728535915
+   }
+  },
+  "woven_mat": {
+   "dev": {
+    "n": 3,
+    "iou_mean": 0.8675203929071954
+   }
+  }
+ }
+}

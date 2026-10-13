@@ -1,0 +1,37 @@
+{
+  "n_images": 110,
+  "n_eggs_total": 138,
+  "egg_count_histogram": {
+    "1": 93,
+    "2": 6,
+    "3": 11
+  },
+  "prompt_sources": {
+    "grounding_dino": 107,
+    "manual_instances": 3
+  },
+  "polygon_refined": [
+    "egg_010"
+  ],
+  "n_flagged": 1,
+  "flagged": {
+    "egg_012": [
+      "mask_box_mismatch"
+    ]
+  },
+  "config": {
+    "data_dir": "data/raw",
+    "out_dir": "task1_sam/output",
+    "dino": "IDEA-Research/grounding-dino-base",
+    "sam": "facebook/sam-vit-huge",
+    "prompt": "an egg.",
+    "box_thresh": 0.3,
+    "text_thresh": 0.25,
+    "nms_iou": 0.5,
+    "max_box_frac": 0.7,
+    "min_mask_frac": 0.002,
+    "fixes": "task1_sam/fixes.json",
+    "device": null,
+    "only": null
+  }
+}

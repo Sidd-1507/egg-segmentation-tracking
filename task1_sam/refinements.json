@@ -1,0 +1,14 @@
+{
+  "egg_010": [
+    {
+      "instance": 1,
+      "mode": "add_white",
+      "max_sat": 60,
+      "min_val": 100,
+      "polygon": [[241, 281], [255, 274], [302, 271], [327, 275], [360, 295], [395, 299], [410, 315],
+                  [415, 337], [405, 367], [395, 375], [375, 367], [355, 355], [320, 332], [282, 312],
+                  [247, 295]],
+      "note": "upper-right of the egg behind the stem; SAM stopped at the stem even with box + clicks on both sides"
+    }
+  ]
+}
